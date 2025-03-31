@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>-AcerKeyts Main Page-</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        footer {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            font-size: 14px;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        a {
+            color: #61dafb;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body style="background-image: url('host.jpg');">
+    <h1>Enlaces</h1>
+    <ul>
+        <li><a href="https://ps4goldhenacerkeyt69.github.io" target="_blank">PS4 Exploit</a></li>
+        <li><a href="http://ps3xploit.me" target="_blank">PS3 Exploit</a></li>
+        <li><a href="https://github.com/TuUsuario/Repo3" target="_blank">Repositorio 3</a></li>
+    </ul>
+    <footer>
+        AcerKeyt Games
+    </footer>
+</body>
+</html>
