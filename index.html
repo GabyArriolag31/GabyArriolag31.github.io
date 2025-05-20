@@ -18,34 +18,32 @@
             flex-direction: column;
             justify-content: center;
             align-items: flex-start;
-            padding-left: 70px;
+            padding-left: 3vw; /* Ajuste proporcional al ancho */
             height: 100vh;
         }
 
-        /* Título sin efecto glitch */
         h1 {
-            font-size: 96px;
-            margin: 0 0 20px 0;
-            color: white;
-            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7); /* Solo sombra, sin animación */
+            font-size: 6vw; /* Tamaño adaptable en todas las pantallas */
+            margin: 0 0 2vw 0;
+            text-shadow: 0.3vw 0.3vw 0.6vw rgba(0, 0, 0, 0.7);
         }
 
-        /* Efecto Neón más sutil en los enlaces */
+        /* Efecto Neón sutil en los enlaces */
         a {
             color: #61dafb;
             text-decoration: none;
-            font-size: 54px;
-            text-shadow: 0 0 5px #61dafb, 0 0 10px #0088ff; /* Suavizado */
+            font-size: 3vw;
+            text-shadow: 0 0 0.5vw #61dafb, 0 0 1vw #0088ff;
             transition: text-shadow 0.2s ease-in-out;
         }
 
         a:hover {
-            text-shadow: 0 0 8px #61dafb, 0 0 15px #0088ff; /* Menos intensidad */
+            text-shadow: 0 0 0.8vw #61dafb, 0 0 1.5vw #0088ff;
         }
 
         .support-mail {
-            font-size: 48px;
-            text-shadow: 0 0 5px #ff66ff, 0 0 10px #9900cc; /* Suavizado también */
+            font-size: 3.5vw;
+            text-shadow: 0 0 0.5vw #ff66ff, 0 0 1vw #9900cc;
         }
 
         ul {
@@ -55,17 +53,17 @@
         }
 
         li {
-            margin-bottom: 10px;
+            margin-bottom: 1vw;
         }
 
         footer {
             position: fixed;
-            bottom: 10px;
-            right: 10px;
-            font-size: 14px;
+            bottom: 1vw;
+            right: 1vw;
+            font-size: 1.5vw;
             background-color: rgba(0, 0, 0, 0.5);
-            padding: 5px 10px;
-            border-radius: 5px;
+            padding: 0.5vw 1vw;
+            border-radius: 0.5vw;
         }
     </style>
 </head>
