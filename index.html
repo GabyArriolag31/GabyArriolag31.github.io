@@ -22,29 +22,30 @@
             height: 100vh;
         }
 
+        /* Título sin efecto glitch */
         h1 {
             font-size: 96px;
             margin: 0 0 20px 0;
-            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+            color: white;
+            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7); /* Solo sombra, sin animación */
         }
 
-        /* Efecto Neón sutil en los enlaces */
+        /* Efecto Neón más sutil en los enlaces */
         a {
             color: #61dafb;
             text-decoration: none;
             font-size: 54px;
-            text-shadow: 0 0 5px #61dafb, 0 0 10px #0088ff;
+            text-shadow: 0 0 5px #61dafb, 0 0 10px #0088ff; /* Suavizado */
             transition: text-shadow 0.2s ease-in-out;
         }
 
         a:hover {
-            text-shadow: 0 0 8px #61dafb, 0 0 15px #0088ff;
+            text-shadow: 0 0 8px #61dafb, 0 0 15px #0088ff; /* Menos intensidad */
         }
 
-        /* Estilo especial para Support Contact (igual a Support Mail) */
-        .support-link {
+        .support-mail {
             font-size: 48px;
-            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+            text-shadow: 0 0 5px #ff66ff, 0 0 10px #9900cc; /* Suavizado también */
         }
 
         ul {
@@ -71,12 +72,13 @@
 <body>
     <h1>AcerKeyt69</h1>
 
+    <!-- Logo colocado detrás del texto y escalando con la ventana -->
     <img src="logo.png" alt="Logo" style="
         position: absolute;
         top: 50%;
         right: 0%;
         transform: translate(0, -50%);
-        width: 50vw;
+        width: 50vw; /* Ajuste dinámico del tamaño del logo */
         height: auto;
         z-index: -1;
     ">
@@ -85,7 +87,7 @@
         <li><a href="https://ps4goldhenacerkeyt69.github.io/psfree" target="_blank">PS4 Lapse Exploit [Beta]</a></li>
         <li><a href="https://ps4goldhenacerkeyt69.github.io" target="_blank">PS4 Auto Exploit</a></li>
         <li><a href="http://ps3xploit.me" target="_blank">PS3 Exploit</a></li>
-        <li><a href="https://gabyarriolag31.github.io/mailto/" class="support-link">Support Contact</a></li>
+        <li><a href="mailto:gabyarriolag31@gmail.com" class="support-mail" target="_blank">Support mail</a></li>
     </ul>
 
     <footer>
