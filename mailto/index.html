@@ -43,32 +43,24 @@
             transform: scale(1.05);
         }
 
-        /* 📱 Optimización para móviles en modo horizontal */
-        @media screen and (max-width: 768px) and (orientation: landscape) {
+        /* 📱 Solo móviles: más grande y sin scroll */
+        @media screen and (max-width: 768px) {
             body {
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: center;
-                align-items: center;
+                height: 100dvh;
+                overflow: hidden;
                 padding: 2vw;
-                height: auto;
-                text-align: center;
             }
 
             h1 {
                 font-size: 10vw;
-                width: 100%;
-                margin-top: 2vw;
-                margin-bottom: 4vw;
+                margin-bottom: 6vw;
             }
 
             .button {
-                font-size: 4.5vw;
-                padding: 2vw 4vw;
+                font-size: 5vw;
+                padding: 3vw 6vw;
                 margin: 2vw;
                 border-radius: 2vw;
-                width: auto;
-                min-width: 40vw;
             }
         }
     </style>
